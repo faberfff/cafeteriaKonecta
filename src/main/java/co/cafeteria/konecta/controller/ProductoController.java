@@ -20,6 +20,12 @@ import co.cafeteria.konecta.exception.RestException;
 import co.cafeteria.konecta.model.Productos;
 import co.cafeteria.konecta.service.iface.IProductoService;
 
+/**
+ * 
+ * @author Faber
+ *
+ */
+
 @RestController
 @RequestMapping("/productos")
 public class ProductoController {

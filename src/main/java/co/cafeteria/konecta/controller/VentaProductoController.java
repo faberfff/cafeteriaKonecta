@@ -21,6 +21,12 @@ import co.cafeteria.konecta.mapper.VentaProductoMapper;
 import co.cafeteria.konecta.model.VentaProducto;
 import co.cafeteria.konecta.service.iface.IVentaProductoService;
 
+/**
+ * 
+ * @author Faber
+ *
+ */
+
 @RestController
 @RequestMapping("/venta")
 public class VentaProductoController {

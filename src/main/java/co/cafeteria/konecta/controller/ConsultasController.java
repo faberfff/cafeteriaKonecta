@@ -13,6 +13,11 @@ import co.cafeteria.konecta.dto.ProductosDto;
 import co.cafeteria.konecta.dto.VentaProductoDto;
 import co.cafeteria.konecta.service.iface.IProductoService;
 import co.cafeteria.konecta.service.iface.IVentaProductoService;
+/**
+ * 
+ * @author Faber
+ *
+ */
 
 @RestController
 @RequestMapping("/consulta")

@@ -1,10 +1,18 @@
 package co.cafeteria.konecta.mapper;
 
 import java.util.ArrayList;
+
+
 import java.util.List;
 
 import co.cafeteria.konecta.dto.ProductosDto;
 import co.cafeteria.konecta.model.Productos;
+
+/**
+ * 
+ * @author Faber
+ *
+ */
 
 public class ProductosMapper {
 	

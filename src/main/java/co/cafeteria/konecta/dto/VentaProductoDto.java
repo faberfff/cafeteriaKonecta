@@ -2,6 +2,12 @@ package co.cafeteria.konecta.dto;
 
 import co.cafeteria.konecta.model.Productos;
 
+/**
+ * 
+ * @author Faber
+ *
+ */
+
 public class VentaProductoDto {
 	
 	private Long id;

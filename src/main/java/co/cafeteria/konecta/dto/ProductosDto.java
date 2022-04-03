@@ -2,6 +2,11 @@ package co.cafeteria.konecta.dto;
 
 import java.time.LocalDate;
 
+/**
+ * 
+ * @author Faber
+ *
+ */
 
 public class ProductosDto {
 	
