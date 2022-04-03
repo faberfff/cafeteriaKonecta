@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html xmlns:th="http://themeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Cafeteria Konecta</title>
+<link rel="stylesheet" th:href="@{/css/bootstrap.min.css}">
+</head>
+<body>
+	<h1>Lista productos</h1>
+	
+	<div class="container">
+	<table>
+		<tr>
+			<td>Id</td>
+			<td>Nombre</td>
+			<td>Referencia</td>
+			<td>Precio</td>
+			<td>Peso</td>
+			<td>Categoria</td>
+			<td>Stock</td>
+			<td>Fecha creacion</td>
+		</tr>
+
+		<tr th:each="productos :${lista}">
+			<td th:text=${productos.id}></td>
+			<td th:text=${productos.nombre}></td>
+			<td th:text=${productos.referencia}></td>
+			<td th:text=${productos.precio}></td>
+			<td th:text=${productos.peso}></td>
+			<td th:text=${productos.categoria}></td>
+			<td th:text=${productos.stock}></td>
+			<td th:text=${productos.fechaCreacion}></td>
+		</tr>
+
+
+
+	</table>
+	
+	
+	</div>
+
+
+</body>
+</html>
